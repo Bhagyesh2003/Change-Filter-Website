@@ -1,0 +1,16 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+canvas {
+  height: 500px;
+  width: 800px;
+  /* background-color: azure; */
+  border: 1px solid black;
+}
+

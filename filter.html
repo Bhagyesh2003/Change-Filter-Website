@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Image Filter</title>
+  <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+  <h1 id="title">Apply Filter on images</h1>
+
+  <h2>Upload an Image: </h2>
+
+  <canvas id="can"></canvas>
+  
+<br>
+  <input type="file" id="finput" accept="image/*" onchange="upload()" multiple="false"> 
+
+  
+  <br>
+  <input type="button" class="btn" value="Gray Filter" onclick="makeGray()">
+  <input type="button" class="btn" value="Red Filter" onclick="makeRed()">
+  
+  
+  
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="filter.js"></script>
+
+</body>
+</html>
